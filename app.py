@@ -5,7 +5,7 @@
 
 import streamlit as st
 import random
-import time
+#import time
 from PIL import Image
 from similarities import get_response, high_sim
 from Chatbot2 import get_category, get_question, get_keyword, get_answer, show_keywords
