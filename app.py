@@ -219,6 +219,9 @@ def main():
         #辞書検索によってキーワードからkey_idを取得
         keyword = st.session_state.keyword
         key_id = st.session_state.key_dict[keyword]
+
+        do_user(keyword)
+        
         #key_idを登録
         st.session_state.key_id = key_id
         #answer_idを設定
